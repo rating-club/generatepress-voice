@@ -1,0 +1,46 @@
+/*
+ Theme Name:   GeneratePress Voice
+ Theme URI:    https://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Tom Usborne
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      0.1
+*/
+
+/* Widgets */
+.widget-gdssh_networks_profiles .widget-title {
+    text-align: center;
+}
+
+/* Widgets */
+
+/* Additional Widgets Styling */
+.gdrts-rating-list ol li.gdrts-rating-item {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #DEDEDE;
+}
+
+/* Additional Widgets Styling */
+
+/* Breadcrumbs Styling */
+.gdcub-generatepress-wrapper {
+    background: #FFF;
+}
+
+/* Breadcrumbs Styling */
+
+/* Extra Styling */
+.comment-body {
+    padding: 0;
+}
+
+/* Extra Styling */
+
+/* Rating Widgets */
+.gdrts-thumbnail-full-logo .gdrts-rating-item {
+    text-align: center;
+}
+
+/* Rating Widgets */
