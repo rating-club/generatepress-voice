@@ -16,6 +16,7 @@
 /* Widgets */
 
 /* Additional Widgets Styling */
+.gdrts-widget-user-reviews-wrapper ul li,
 .gdrts-rating-list ol li.gdrts-rating-item {
     margin-bottom: 15px;
     padding-bottom: 15px;
@@ -36,6 +37,19 @@
     padding: 0;
 }
 
+.comment-content {
+    margin-top: 0;
+    border: 0;
+}
+
+.widget_categories .current-cat {
+    font-weight: bold;
+}
+
+.widget_categories .current-cat ul.children {
+    font-weight: normal;
+}
+
 /* Extra Styling */
 
 /* Rating Widgets */
@@ -44,3 +58,35 @@
 }
 
 /* Rating Widgets */
+
+/* Single Company Header */
+.gdrts-company-header .company-logo {
+    float: left;
+    padding-right: 60px;
+}
+
+.gdrts-company-header .company-information h1.entry-title {
+    font-weight: 500;
+}
+
+/* Single Company Header */
+
+.gdrts-user-reviews-wrapper {
+    margin: 0 !important;
+}
+
+@media (max-width: 768px) {
+    .gdrts-company-header .company-logo {
+        float: none;
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .gdrts-company-header .company-information {
+        text-align: center;
+    }
+
+    .gdrts-company-header .company-information .gdrts-rating-block .gdrts-inner-wrapper {
+        text-align: center;
+    }
+}
