@@ -71,9 +71,67 @@
 
 /* Single Company Header */
 
+/* User Reviews List */
 .gdrts-user-reviews-wrapper {
     margin: 0 !important;
 }
+
+/* User Reviews List */
+
+/* User Reviews Widget */
+.gdrts-widget-user-reviews-wrapper ul li h5 {
+    font-weight: bold;
+    margin: 0 0 0.5em;
+}
+
+.gdrts-widget-user-reviews-wrapper ul li p {
+    margin: 0;
+}
+
+.gdrts-widget-user-reviews-wrapper ul li p.gdrts-ur-rating-score span {
+    font-weight: bold;
+}
+
+/* User Reviews Widget */
+
+/* Companies Archive */
+.gdrts-post-type-archive .inside-article {
+    overflow: auto;
+}
+
+.gdrts-post-type-archive .inside-article .featured-image {
+    float: left;
+    max-width: 150px;
+    margin: 0 !important;
+    padding-right: 20px;
+}
+
+.gdrts-post-type-archive .inside-article .company-information .entry-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 0 .5em;
+}
+
+.gdrts-post-type-archive .inside-article .company-information {
+    margin-left: 150px;
+}
+
+.gdrts-post-type-archive .inside-article .gdrts-rating-block {
+    margin-bottom: 0;
+}
+
+.gdrts-post-type-archive .inside-article .gdrts-rating-element {
+    display: inline-block;
+}
+
+.gdrts-post-type-archive .inside-article .gdrts-rating-text {
+    display: inline-block;
+    line-height: 24px;
+    font-size: .9em;
+    vertical-align: top;
+}
+
+/* Companies Archive */
 
 @media (max-width: 768px) {
     .gdrts-company-header .company-logo {

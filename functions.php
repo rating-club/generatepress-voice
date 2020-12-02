@@ -32,6 +32,27 @@ function gdrts__pre_get_posts( $query ) {
 }
 
 /** GeneratePress
+ * Add widget like area showing basic company information and categories.
+ */
+add_action( 'generate_before_right_sidebar_content', 'gdrts__single_company_sidebar' );
+function gdrts__single_company_sidebar() {
+	if ( is_singular( 'company' ) ) {
+		?>
+
+        <aside class="widget inner-padding">
+            <h2 class="widget-title">About the company</h2>
+
+			<?php echo get_the_content( null, false, get_post() ); ?>
+
+            <h4>Categories</h4>
+			<?php the_category( ' &middot; ' ); ?>
+        </aside>
+
+		<?php
+	}
+}
+
+/** GeneratePress
  * Load 'part-company-header.php' template for company header content;
  */
 add_shortcode( 'gdrts-company-header', 'gdrts__company_header' );
