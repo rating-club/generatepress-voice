@@ -1,7 +1,7 @@
 <?php
 
 /**
- * The template for displaying Archive pages for Companies.
+ * The template for displaying Archive pages for Categories.
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
